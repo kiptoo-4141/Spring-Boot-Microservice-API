@@ -1,4 +1,4 @@
-package com.kiptoo.department_service.model;
+package com.kiptoo.employee_service.model;
 
-public record Employee(Long id,Long departmentId, String name, int age, String position) {
+public record Employee(Long id, Long departmentId, String name, int age, String position) {
 }
