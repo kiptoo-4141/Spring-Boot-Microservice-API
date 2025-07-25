@@ -79,21 +79,21 @@ Make sure you have the following installed:
 
    
 Start the Eureka Server
-
-cd service-registry
-mvn spring-boot:run
-
-Start the Department Service
-
-cd ../department-service
-mvn spring-boot:run
-
-
-Start the Employee Service
-
-cd ../employee-service
-mvn spring-boot:run
-
+'''bash
+   cd service-registry
+   mvn spring-boot:run
+   
+   Start the Department Service
+   
+   cd ../department-service
+   mvn spring-boot:run
+   
+   
+   Start the Employee Service
+   
+   cd ../employee-service
+   mvn spring-boot:run
+   
 
 Start the API Gateway
 
