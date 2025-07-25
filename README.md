@@ -78,22 +78,22 @@ Make sure you have the following installed:
    cd spring-boot-microservice-api
 
    
-Start the Eureka Server
-'''bash
-   cd service-registry
-   mvn spring-boot:run
-   
-   Start the Department Service
-   
-   cd ../department-service
-   mvn spring-boot:run
-   
-   
-   Start the Employee Service
-   
-   cd ../employee-service
-   mvn spring-boot:run
-   
+**Start the Eureka Server**
+```bash
+cd service-registry
+mvn spring-boot:run
+
+Start the Department Service
+
+cd ../department-service
+mvn spring-boot:run
+
+
+Start the Employee Service
+
+cd ../employee-service
+mvn spring-boot:run
+
 
 Start the API Gateway
 
